@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaece7;
+}
+
+.tahoe {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/tahoe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer {
+    display: inline;
+    font-size: 24px;
+
+.headshot {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/headshot.jpg");
+    background-size: cover;
+    background-position: center;
+}
