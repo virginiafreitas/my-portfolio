@@ -17,6 +17,8 @@ https://github.com/virginiafreitas/my-portfolio
 
 #### Usage
  - Open the 'index.html' file in the browser
+![screenshot my-portfolio](https://github.com/virginiafreitas/my-portfolio/assets/137131281/600cae13-12cd-401c-bd3f-68df98410bc1)
+
  
 
 ##### Application Deployment:
