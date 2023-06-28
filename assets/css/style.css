@@ -1,16 +1,11 @@
 * {
     box-sizing: border-box;
-}
-
-h1 {
-    align-items: center;
+    display: inline-block
 }
 
 body {
     background-color: #eaece7;
 }
-
-
 
 header {
     padding: 20px;
@@ -19,14 +14,41 @@ header {
     color: #ffffff;
 }
 
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+
+p {
+    font-size: 16px;
 }
 
 
@@ -40,31 +62,69 @@ a {
 }
 
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-header nav ul li {
-    display: inline-block;
+.float-right {
+    float: right;
     margin-left: 25px;
-    color: #ffffff
 }
 
-.main titles {
-    color:black
+
+.titles {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
+
+
+.about-me,
+.work,
+.education {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    max-height: 200px;
+}
+
+
+.about-me image {
+    max-height: 200px;
+}
+
+
+.about-me h2,
+.work h2,
+.education h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 
 footer {
-    display: inline;
-    font-size: 24px;
-    font-style: normal;
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color:black
 }
+
+
+footer h3 {
+    font-size: 20px;
+    margin-left: 300px;
+
+}
+
+footer ul{
+    text-align: center;
+}
+
+
 
 .headshot {
     height: 400px;
@@ -73,16 +133,6 @@ footer {
     background-image: url("./images/headshot.jpg");
     background-size: cover;
     background-position: center;
+    float: right;
 }
 
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 200px;
-}
-
-.footer art contact-me-items{
-    display:inline-block
-
-}
