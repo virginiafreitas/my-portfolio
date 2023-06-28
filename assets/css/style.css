@@ -2,9 +2,33 @@
     box-sizing: border-box;
 }
 
+h1 {
+    align-items: center;
+}
+
 body {
     background-color: #eaece7;
 }
+
+
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .tahoe {
     height: 800px;
@@ -24,11 +48,23 @@ header h1 {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    color: #ffffff
+}
+
+.main titles {
+    color:black
 }
 
 footer {
     display: inline;
     font-size: 24px;
+    font-style: normal;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color:black
+}
 
 .headshot {
     height: 400px;
@@ -37,4 +73,16 @@ footer {
     background-image: url("./images/headshot.jpg");
     background-size: cover;
     background-position: center;
+}
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.footer art contact-me-items{
+    display:inline-block
+
 }
