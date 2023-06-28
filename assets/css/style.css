@@ -42,7 +42,7 @@ header nav ul li {
 
 
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -94,15 +94,24 @@ p {
 
 
 .about-me image {
-    max-height: 200px;
+    max-height: 200px;  
 }
 
 
 .about-me h2,
 .work h2,
 .education h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 36px;
+}
+
+
+.about-me p,
+.work p,
+.education li {
+    margin-bottom: 10px;
+    font-size: 18px;
+
 }
 
 
@@ -136,3 +145,4 @@ footer ul{
     float: right;
 }
 
+/* Did not have time to finish the assignemnet */
