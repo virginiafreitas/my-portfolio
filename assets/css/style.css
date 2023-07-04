@@ -8,135 +8,63 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    width:100%;
 }
 
+#whitecolor {
+    color: #ffffff;
+}
 
 header h1 {
     display: inline-block;
     font-size: 48px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-
-header nav ul {
-    list-style-type: none;
-}
-
-
-header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    justify-content: space-around;
 }
-
-
-a {
-    color: #000000;
-    text-decoration: none;
-}
-
-
-p {
-    font-size: 16px;
-}
-
 
 .tahoe {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-right:0%;
     background-image: url("../images/tahoe.jpg");
     background-size: cover;
     background-position: center;
 }
 
-
-.float-left {
-    float: left;
-    margin-right: 25px;
+.message {
+    font-weight:bold;
+    font-style:italic;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 
 .titles {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
-.about-me,
-.work,
-.education {
-    margin-bottom: 20px;
+#about-me,
+#work,
+#education {
+    margin-bottom: 30px;
     padding: 50px;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-    max-height: 200px;
+    max-height: 50px;
 }
-
-
-.about-me image {
-    max-height: 200px;  
-}
-
-
-.about-me h2,
-.work h2,
-.education h2 {
-    margin-bottom: 10px;
-    font-size: 36px;
-}
-
-
-.about-me p,
-.work p,
-.education li {
-    margin-bottom: 10px;
-    font-size: 18px;
-
-}
-
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-
-footer h3 {
-    font-size: 20px;
-    margin-left: 300px;
-
-}
-
-footer ul{
-    text-align: center;
-}
-
-
 
 .headshot {
-    height: 400px;
+    height: 100px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./images/headshot.jpg");
@@ -145,4 +73,43 @@ footer ul{
     float: right;
 }
 
-/* Did not have time to finish the assignemnet */
+.flexbox {
+    display:flex;
+}
+
+#about-me {
+    padding-bottom: 310px;
+}
+
+#work {
+    padding-bottom: 235px;
+    width: 100%;
+}
+
+#education {
+    padding-bottom: 270px;
+}
+
+h2, h3 {
+    font-size: 36px;
+}
+
+p,
+ol li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header a {
+    color:white;
+    padding: 15px;
+}
+
+/* Did not finish the assignemnet yet*/
