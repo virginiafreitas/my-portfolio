@@ -1,161 +1,154 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- Did not finish assignemnt yet-->
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <title> Virginia Freitas - Portfolio </title>
 </head>
 
 <body>
 
-    
-    <header id="whitecolor">
-        <h1> Virginia Freitas - Portfolio </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href=#about-me>About Me</a>
-                </li>
-                <li> 
-                    <a href=#work>Work</a>
-                </li>
-                <li>
-                    <a href=#education>Education</a>
-                </li>
-                <li>
-                    <a href=#contact-me>Contact Me</a>
-                </li>
-                <li>
-                    <a href=#resume>Resume</a>
-                </li>
-            </ul>
-        </nav>
-        <img class="tahoe" alt="background photo of Lake Tahoe during winter"></img>
-        <p class="message" id="whitecolor"> From Blueprints to Code: A Civil Engineer's Journey to Web Development. </p>
+    <div class="tahoeimage-container">
+        <ul class="navbar">
+            <li><a href=#about-me>About Me</a></li>
+            <li><a href=#projects>Projects</a></li>
+            <li><a href=#skills>Skills</a></li>
+            <li><a href=#education>Education</a></li>
+            <li><a href=#work>Work</a></li>
+            <li><a href=#contact-me>Contact Me</a></li>
+        </ul>
+        <img src="./assets/images/tahoe.jpg" alt="Virginia's favotite place Lake Tahoe during winter">
+        <p class="myname-caption">Virginia Freitas</p>
+        <p class="tahoeimage-caption">From Blueprints to Code: A Civil Engineer's Journey to Web Development.</p>
+    </div>
 
-    </header>
+    <div class="rows">
+        <div class="row is-full">
+            <div class="columns" id="about-me">
+                <div class="column is-flex is-one-quarter">
+                    <img src="./assets/images/headshot.jpg" alt="photo of Virginia"/>
+                </div>
+                <div class="column auto" id="about-me-column"><br>
+                    <h2 id="section-title">About Me</h2><br/>
+                    <p>Meet Virginia Freitas, a versatile professional with a solid background in <span style=font-weight:bolder> civil engineering </span> and a passion for <span style=font-weight:bolder> technology </span>.</p><br/>
+                    <p>With four years of experience in construction management, I bring expertise in project coordination, problem-solving, and attention to detail.</p><br/>
+                    <p>Currently transitioning into <span style=font-weight:bolder>web development</span>, I am driven by a deep enthusiasm for technology and a commitment to continuous learning.</p><br/>
+                    <p>Outside of work, I find inspiration in the companionship of my dog Bagel and in practicing outdoor sports.</p><br/>
+                    <p>Let's collaborate on your next project and combine technology, engineering, and innovation for exceptional results!</p>
+                </div>
+            </div>
+        </div>
 
-    <main class ="titles" id="whitecolor">
-        <div id="about-me">
-            <h2>About Me</h2>
-            <section class="flexbox">
-                <p>Meet Virginia Freitas, a versatile professional with a solid background in <span style=color:yellow> civil engineering </span> and a passion for technology. With four years of experience in construction management, I bring expertise in project coordination, problem-solving, and attention to detail. Currently transitioning into <span style=color:yellow>web development</span>, I am driven by a deep enthusiasm for technology and a commitment to continuous learning. Outside of work, I find inspiration in the companionship of my dog Bagel and in practicing outdoor sports. Let's collaborate on your next project, combining technology, engineering, and innovation for exceptional results.</p>
-                <img src="./assets/images/headshot.jpg" alt="photo of Virginia"/>
-            </section>
+        
+        <div class="row is-full">
+            <div class="columns" id="projects"> 
+                <div class="column is-one-quarter">
+                    <img src="./assets/images/web-dev.jpg" href="https://www.freepik.com/free-photo/crop-architect-opening-blueprint_1477063.htm#query=civil%20engineering&position=0&from_view=keyword&track=ais" alt="photo of civil engineering blueprints"/>
+                </div>
+                <div class="column auto" id="resume"><br/>
+                    <h2 id="section-title">Web Development Projects</h2><br/>
+                    <ul>
+                        <li><a href="https://gsr142.github.io/bookFlix/">BookFlix</a></li><br>
+                        <li><a href="https://virginiafreitas.github.io/weather-dashboard/">Weather Forecast API</a></li><br>
+                        <li><a href="https://virginiafreitas.github.io/workday-schedule/">Workday Schedule</a></li><br>
+                        <li><a href="https://virginiafreitas.github.io/code-quiz/">Code Quiz</a></li><br>
+                        <li><a href="https://virginiafreitas.github.io/password-generator/">Password Generator</a></li><br>
+                    </ul>
+                </div>
+            </div>
         </div>
         
-        <div id="work">
-            <h2>Work</h2>
-            <br/>
-            <ol>
-                <li>
-                    Project Engineer - Power Engineering construction - 2019 thru 2023
-                </li>
-            </ol>
+        <div class="row is-full">
+            
+        </div>
+        
+        
+        <div class="row is-full">
+            <div class="columns" id="skills"> 
+                <div class="column is-one-quarter">
+                    <img src="./assets/images/skills-image.jpg"/>
+                </div>
+                <div class="column auto" id="resume"><br/>
+                    <h2 id="section-title">Skills</h2><br/>
+                    <ul>
+                        <div class="columns">
+                            <div class="column auto">
+                                <li>HTML 5</li><br/>
+                                <li>CSS</li><br/>
+                                <li>Javascript</li><br/>
+                                <li>Python</li><br/>
+                            </div>
+                            <div class="column auto">                                
+                                <li>Developer Tools</li><br/>
+                                <li>Web API</li><br/>
+                                <li>Server Side API</li><br/>
+                                <li>Third Party API</li><br/>
+                            </div>
+                            <div class="column auto">                                
+                                <li>Bootstrap</li><br/>
+                                <li>Bulma</li><br/>
+                                <li>Jquery</li><br/>
+                                <li>Git Bash</li><br/>
+                            </div>
+                            <div class="column auto">                                                              
+                                <li>Problem-solving</li><br/>
+                                <li>Pseudocoding</li><br/>
+                                <li>Command Line</li><br/>
+                                <li>GitHub</li><br/>
+                            </div>
+                            <div class="column auto">                                
+                                <li>Day.js</li><br/>
+                                <li>AJAX</li><br/>
+                                <li>Fetch</li><br/>
+                                <li>JSON</li><br/>
+                            </div>                            
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row is-full">
+            <div class="columns" id="education"> 
+                <div class="column is-one-quarter">
+                    <img src="./assets/images/education-image.png"/>
+                </div>
+                <div class="column auto" id="resume"><br/>
+                    <h2 id="section-title">Education</h2><br/>
+                    <ul>
+                        <li>Coding Bootcamp at UC Berkeley Extension (in progress - to complete in September 2023).</li><br/>
+                        <li>Masters of Science in Engineering Management at International Technological University (in progress - to complete in December 2023)</li><br/>
+                        <li>Bachelors in Science in Civil Engineering at San Francisco State University (completed Spring 2019)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <div id="education">
-            <h2>Education</h2>
-            <ol>
-                <li>
-                    Coding Bootcamp (in progress - to complete in September 2023)
-                </li>
-                <li>
-                    Masters of Science in Engineering Management (in progress - to complete in December 2023)
-                </li>
-                <li>
-                    Bachelors in Science in Civil Engineering (completed Spring 2019)
-                </li>
-            </ol>
+                
+        <div class="row is-full">
+            <div class="columns" id="work"> 
+                <div class="column is-one-quarter">
+                    <img src="./assets/images/civil-eng-image.jpg" href="https://www.freepik.com/free-photo/crop-architect-opening-blueprint_1477063.htm#query=civil%20engineering&position=0&from_view=keyword&track=ais" alt="photo of civil engineering blueprints"/>
+                </div>
+                <div class="column auto" id="resume"><br/>
+                    <h2 id="section-title">Work Experience</h2><br/>
+                    <ul>
+                        <li>Project Engineer at Power Engineering construction from 2019 to 2023 in the San Francisco Bay Area.</li><br/>
+                        <li>Civil Engineer Intern at Concore Development Group from July 2018 to February 2019 in the San Francisco Bay Area.</li><br/>
+                        <li>Civil Engineer Inter at Intech Engenharia from July 2026 to March 2017 in Belo Horizonte, Brazil.</li>
+                    </ul>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="row is-full is-8" id="contact-me">
+            <p><br>Contact Me:    📱 +1(628)233-0860    ∣    📧 virginiacdefreitas@gmail.com    ∣    <a href="https://www.github.com/virginiafreitas">GitHub</a>    ∣    <a href="https://www.linkedin.com/in/virginia-freitas">LinkedIn</a></p>
         </div>
-    </main>
-
-    <div id="skills">
-        <h2>Skills</h2>
-        <ol>
-            <li>
-                HTML
-            </li>
-            <br>
-            <li>
-                CSS
-            </li>
-            <br>
-            <li>
-                Javascript
-            </li>
-            <br>
-            <li>
-                Web Services API
-            </li>
-            <br>
-            <li>
-                Bootsrap
-            </li>
-            <br>
-            <li>
-                jQuery
-            </li>
-            <br>
-            <li>
-                Git Bash
-            </li>
-            <br>
-            <li>
-                Python
-            </li>
-        </ol>
-    </div>
-</main>
-
-<div id="projects">
-    <h2>Web Development Projects</h2>
-    <ol>
-        <li>
-            <a href="https://gsr142.github.io/bookFlix/">BookFlix</a>
-        </li>
-        <br>
-        <li>
-            <a href="https://virginiafreitas.github.io/weather-dashboard/">Weather Forecast API</a>
-        </li>
-        <br>
-        <li>
-            <a href="https://virginiafreitas.github.io/workday-schedule/">Workday Schedule</a>
-        </li>
-        <br>
-        <li>
-            <a href="https://virginiafreitas.github.io/code-quiz/">Workday Schedule</a>
-        </li>
-        <br>
-            <a href="https://virginiafreitas.github.io/password-generator/">Password Generator</a>
-        </li>
-    </ol>
-</div>
-</main>
-
-    <footer>
-            <h3 id="contact-me">Contact Me</h3>
-    </br>
-                <ul>
-                    <li>
-                        📱 +1(628)233-0860    /
-                    </li>    
-                    
-                    <li>
-                        📧 virginiacdefreitas@gmail.com    /
-                    </li>    
-                        
-                    <li>
-                        <a href="https://www.github.com/virginiafreitas">GitHub</a>    /
-                    </li>
-
-                    <li>
-                        <a href="https://www.linkedin.com/in/virginia-freitas">LinkedIn</a>
-                    </li>
-                </ul>
-    </footer>
 
 </body>
 </html>
