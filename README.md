@@ -10,13 +10,13 @@ The application displays my portfolio on a website built from scratch.
  - combined redundant classes properties
  - Added alt text to images to improve accessibility
 
-### Installation
+## Installation
 
 https://github.com/virginiafreitas/my-portfolio
 
-#### Usage
-
+## Usage
+   ![screenshot1](https://github.com/virginiafreitas/my-portfolio/assets/137131281/bd162323-2b96-4b3d-a102-fc43aa633241)
 
  
-##### Application Deployment:
+### Application Deployment:
  - https://virginiafreitas.github.io/my-portfolio/
