@@ -1,5 +1,7 @@
 # My Portfolio
+https://github.com/virginiafreitas/logo-maker
 
+## Description
 The application displays my portfolio on a website built from scratch.
 
 ## Improvements
