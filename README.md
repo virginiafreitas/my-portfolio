@@ -1,5 +1,5 @@
 # My Portfolio
-https://github.com/virginiafreitas/logo-maker
+  [![GitHub License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 The application displays my portfolio on a website built from scratch.
